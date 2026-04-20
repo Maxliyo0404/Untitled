@@ -71,17 +71,22 @@
                 }
 
             }
-        }
-        .bars{
+            .bars{
            
         
             .bar{
                 width: 40px;
                 height: 3px;
-                color: #FFFFFFE5;
+                background: #FFFFFFE5;
                 margin: 3px;
+              
             }
+              &:hover{
+                    transform: scale(0.9);
+                }
         }
+        }
+        
     }
 
 }
