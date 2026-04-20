@@ -5,6 +5,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 15px 0;
+}
+.header .header-container .header-list {
+  display: flex;
+  align-items: center;
 }
 
 * {
