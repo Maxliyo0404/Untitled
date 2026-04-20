@@ -1,5 +1,9 @@
 .header{
     background: rgba(0,  0,  0, 0.55);
-    
+    .header-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
 }
