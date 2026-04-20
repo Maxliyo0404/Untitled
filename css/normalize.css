@@ -1,0 +1,349 @@
+/*! normalize.css v8.0.1 | MIT litsenziyasi | github.com/necolas/normalize.css */
+
+/* Hujjat
+   == ... */
+
+/**
+ * 1. Barcha brauzerlarda chiziq balandligini to'g'rilang.
+ * 2. iOS’da yo‘nalish o‘zgargandan so‘ng shrift o‘lchamini sozlashni oldini olish.
+ */
+
+html {
+  chiziq balandligi: 1.15; /* 1 */
+  -webkit-matn o'lchamini sozlash: 100%; /* 2 */
+}
+
+/* Bo'limlar
+   == ... */
+
+/**
+ * Barcha brauzerlarda chegarani olib tashlang.
+ */
+
+tana {
+  chegara: 0;
+}
+
+/**
+ * IE da `asosiy` elementni izchil ravishda renderlash.
+ */
+
+asosiy {
+  displey: blok;
+}
+
+/**
+ * `H1` elementlarining `bo'lim` ichidagi shrift o'lchami va chegarasini to'g'rilang va
+ * Chrome, Firefox va Safari'dagi `maqola` kontekstlari.
+ */
+
+h1 {
+  shrift o'lchami: 2em;
+  chegara: 0.67em 0;
+}
+
+/* Kontentni guruhlash
+   == ... */
+
+/**
+ * 1. Firefox-da to'g'ri katakcha o'lchamini qo'shing.
+ * 2. Edge va IE da ortiqcha yukni ko'rsating.
+ */
+
+soat {
+  quti o'lchami: kontent qutisi; /* 1 */
+  balandlik: 0; /* 1 */
+  toshib ketish: ko'rinadigan; /* 2 */
+}
+
+/**
+ * 1. Barcha brauzerlarda shrift o'lchamining merosxo'rligi va masshtablanishini to'g'rilang.
+ * 2. Barcha brauzerlarda g'alati "em" shrift o'lchamlarini to'g'rilang.
+ */
+
+oldindan {
+  shrift oilasi: monospace, monospace; /* 1 */
+  shrift o'lchami: 1em; /* 2 */
+}
+
+/* Matn darajasidagi semantika
+   == ... */
+
+/**
+ * IE 10 da faol havolalardagi kulrang fonni olib tashlang.
+ */
+
+a {
+  fon rangi: shaffof;
+}
+
+/**
+ * 1. Chrome 57-da pastki chegarani olib tashlang
+ * 2. Chrome, Edge, IE, Opera va Safari brauzerlarida to'g'ri matn bezaklarini qo'shing.
+ */
+
+abbr[sarlavha] {
+  chegara-pastki qismi: yo'q; /* 1 */
+  matn bezagi: tagiga chizilgan; /* 2 */
+  matn bezagi: tagiga chiziq chizilgan; /* 2 */
+}
+
+/**
+ * Chrome, Edge va Safari brauzerlarida to'g'ri shrift qalinligini qo'shing.
+ */
+
+b,
+kuchli {
+  shriftning og'irligi: qalinroq;
+}
+
+/**
+ * 1. Barcha brauzerlarda shrift o'lchamining merosxo'rligi va masshtablanishini to'g'rilang.
+ * 2. Barcha brauzerlarda g'alati "em" shrift o'lchamlarini to'g'rilang.
+ */
+
+kod,
+kbd,
+namuna {
+  shrift oilasi: monospace, monospace; /* 1 */
+  shrift o'lchami: 1em; /* 2 */
+}
+
+/**
+ * Barcha brauzerlarda to'g'ri shrift o'lchamini qo'shing.
+ */
+
+kichik {
+  shrift o'lchami: 80%;
+}
+
+/**
+ * `sub` va `sup` elementlarining chiziq balandligiga ta'sir qilishini oldini oling
+ * barcha brauzerlar.
+ */
+
+sub,
+sup {
+  shrift o'lchami: 75%;
+  chiziq balandligi: 0;
+  lavozim: nisbiy;
+  vertikal-tekislash: asosiy chiziq;
+}
+
+sub {
+  pastki qismi: -0.25em;
+}
+
+sup {
+  yuqori: -0.5em;
+}
+
+/* O'rnatilgan kontent
+   == ... */
+
+/**
+ * IE 10 da havolalar ichidagi rasmlardagi chegarani olib tashlang.
+ */
+
+tasvir {
+  chegara uslubi: yo'q;
+}
+
+/* Shakllar
+   == ... */
+
+/**
+ * 1. Barcha brauzerlarda shrift uslublarini o'zgartiring.
+ * 2. Firefox va Safari'dagi chegarani olib tashlang.
+ */
+
+tugma,
+kirish,
+optgroup,
+tanlang,
+matn maydoni {
+  shrift oilasi: meros olish; /* 1 */
+  shrift o'lchami: 100%; /* 1 */
+  chiziq balandligi: 1.15; /* 1 */
+  chegara: 0; /* 2 */
+}
+
+/**
+ * IEda ortiqcha yukni ko'rsating.
+ * 1. Edge’da ortiqcha qiymatni ko‘rsating.
+ */
+
+tugma,
+kiritish { /* 1 */
+  toshib ketish: ko'rinadigan;
+}
+
+/**
+ * Edge, Firefox va IE da matn transformatsiyasining merosini olib tashlang.
+ * 1. Firefox-da matnni o'zgartirish merosini olib tashlang.
+ */
+
+tugma,
+tanlang { /* 1 */
+  matnni o'zgartirish: yo'q;
+}
+
+/**
+ * iOS va Safari-da bosish mumkin bo'lgan turlarni uslublashning iloji yo'qligini tuzating.
+ */
+
+tugma,
+[type="tugma"],
+[type="reset"],
+[type="yuborish"] {
+  -webkit-ko'rinishi: tugmasi;
+}
+
+/**
+ * Firefox-da ichki chegara va paddingni olib tashlang.
+ */
+
+tugmasi::-moz-fokus-ichki,
+[type="button"]::-moz-fokus-ichki,
+[type="reset"]::-moz-fokus-ichki,
+[type="submit"]::-moz-fokus-ichki {
+  chegara uslubi: yo'q;
+  to'ldirish: 0;
+}
+
+/**
+ * Oldingi qoida tomonidan o'rnatilmagan fokus uslublarini tiklang.
+ */
+
+tugma:-moz-fokuslash halqasi,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-fokuslash halqasi,
+[type="submit"]:-moz-focusring {
+  kontur: 1 pikselli nuqtali tugma matni;
+}
+
+/**
+ * Firefox-dagi to'ldirishni to'g'rilang.
+ */
+
+maydon to'plami {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Edge va IE da matnni o'rashni to'g'rilang.
+ * 2. IE’dagi `fieldset` elementlaridan rang merosini to'g'rilang.
+ * 3. Ishlab chiquvchilar noldan chiqib ketganda chalg'ib qolmasligi uchun to'ldirishni olib tashlang
+ * Barcha brauzerlarda `maydonlar to'plami` elementlari.
+ */
+
+afsona {
+  quti o'lchami: chegara qutisi; /* 1 */
+  rang: meros olish; /* 2 */
+  displey: jadval; /* 1 */
+  maksimal kenglik: 100%; /* 1 */
+  to'ldirish: 0; /* 3 */
+  oq bo'shliq: normal; /* 1 */
+}
+
+/**
+ * Chrome, Firefox va Opera brauzerlarida to'g'ri vertikal hizalanishni qo'shing.
+ */
+
+taraqqiyot {
+  vertikal-tekislash: asosiy chiziq;
+}
+
+/**
+ * IE 10+ da standart vertikal aylantirish panelini olib tashlang.
+ */
+
+matn maydoni {
+  toshib ketish: avtomatik;
+}
+
+/**
+ * 1. IE 10 da to'g'ri katakcha o'lchamini qo'shing.
+ * 2. IE 10 da to'ldirishni olib tashlang.
+ */
+
+[type="belgilash katagiga"],
+[turi = "radio"] {
+  quti o'lchami: chegara qutisi; /* 1 */
+  to'ldirish: 0; /* 2 */
+}
+
+/**
+ * Chrome’da oshirish va kamaytirish tugmalarining kursor uslubini to‘g‘rilang.
+ */
+
+[type="number"]::-webkit-internal-spin-button,
+[type="number"]::-webkit-tashqi-aylantirish-tugmasi {
+  balandlik: avtomatik;
+}
+
+/**
+ * 1. Chrome va Safari brauzerlarida g'alati ko'rinishni to'g'rilang.
+ * 2. Safari'da kontur uslubini to'g'rilang.
+ */
+
+[type="search"] {
+  -webkit-ko'rinishi: matn maydoni; /* 1 */
+  kontur-ofset: -2px; /* 2 */
+}
+
+/**
+ * MacOS’dagi Chrome va Safari’dagi ichki to‘ldirishni olib tashlang.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-ko'rinishi: yo'q;
+}
+
+/**
+ * 1. iOS va Safari’da bosish mumkin bo‘lgan turlarni uslublashning iloji yo‘qligini tuzating.
+ * 2. Safari’da shrift xususiyatlarini `meros qilib olish` ga o'zgartiring.
+ */
+
+::-webkit-faylni yuklash tugmasi {
+  -webkit-ko'rinishi: tugmasi; /* 1 */
+  shrift: meros qilib olish; /* 2 */
+}
+
+/* Interaktiv
+   == ... */
+
+/*
+ * Edge, IE 10+ va Firefox-da to'g'ri displeyni qo'shing.
+ */
+
+tafsilotlar {
+  displey: blok;
+}
+
+/*
+ * Barcha brauzerlarda to'g'ri displeyni qo'shing.
+ */
+
+xulosa {
+  displey: ro'yxat elementi;
+}
+
+/* Boshqa
+   == ... */
+
+/**
+ * IE 10+ da to'g'ri displeyni qo'shing.
+ */
+
+shablon {
+  displey: yo'q;
+}
+
+/**
+ * IE 10 da to'g'ri displeyni qo'shing.
+ */
+
+[yashirin] {
+  displey: yo'q;
+}
