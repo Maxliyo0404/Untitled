@@ -2,6 +2,11 @@
   background: rgba(0, 0, 0, 0.55);
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
 }
 .header .header-container {
   display: flex;
@@ -37,12 +42,20 @@
   line-height: 100%;
   color: rgba(255, 255, 255, 0.8980392157);
 }
+.header .header-container .selects .select:hover {
+  color: #F4C430;
+  cursor: pointer;
+}
 .header .header-container .selects .select .option {
   color: black;
 }
 .header .header-container .selects .search {
   font-size: 19px;
   color: rgba(255, 255, 255, 0.8980392157);
+}
+.header .header-container .selects .search:hover {
+  color: #F4C430;
+  cursor: pointer;
 }
 .header .header-container .selects .header-btn {
   padding: 16px 17px;

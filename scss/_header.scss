@@ -2,6 +2,11 @@
     background: rgba(0,  0,  0, 0.55);
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
     .header-container{
         display: flex;
         align-items: center;
@@ -33,6 +38,10 @@
                 font-size: 20px;
                 line-height: 100%;
                 color: #FFFFFFE5;
+                 &:hover{
+                    color: #F4C430;
+                    cursor: pointer;
+                }
                 .option{
                     color: black;
                 }
@@ -40,6 +49,10 @@
             .search{
                 font-size: 19px;
                 color: #FFFFFFE5;
+                 &:hover{
+                    color: #F4C430;
+                    cursor: pointer;
+                }
             }
             .header-btn{
                 padding: 16px 17px;
