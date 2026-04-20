@@ -1,5 +1,7 @@
 .header {
   background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
 }
 .header .header-container {
   display: flex;
