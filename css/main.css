@@ -22,7 +22,26 @@
   color: #F4C430;
   cursor: pointer;
 }
-
+.header .header-container .selects {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.header .header-container .selects .select {
+  border: none;
+  background: none;
+  font-weight: 500px;
+  font-size: 20px;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 0.8980392157);
+}
+.header .header-container .selects .select .option {
+  color: black;
+}
+.header .header-container .selects .search {
+  font-size: 19px;
+  color: rgba(255, 255, 255, 0.8980392157);
+}
 * {
   margin: 0;
   padding: 0;

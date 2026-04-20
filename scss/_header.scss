@@ -20,6 +20,29 @@
                 }
             }
         }
+        .selects{
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            .select{
+                border: none;
+                background: none;
+                font-weight: 500px;
+                font-size: 20px;
+                line-height: 100%;
+                color: #FFFFFFE5;
+                .option{
+                    color: black;
+                }
+            }
+            .search{
+                font-size: 19px;
+                color: #FFFFFFE5;
+            }
+            .header-btn{
+                
+            }
+        }
     }
 
 }
