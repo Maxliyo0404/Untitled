@@ -1,7 +1,6 @@
 .header{
-    background: rgba(0,  0,  0, 0.55);
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
+    background: #00000080;
+    backdrop-filter: blur(50px);
     width: 100%;
     position: fixed;
     top: 0;
@@ -72,9 +71,8 @@
 
             }
             .bars{
-           
-        
-            .bar{
+                display: none;
+               .bar{
                 width: 40px;
                 height: 3px;
                 background: #FFFFFFE5;
