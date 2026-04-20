@@ -72,6 +72,12 @@
   border: 1px solid #F4C430;
   box-shadow: 0 8px 25px, rgba(0, 0, 0, 0.3);
 }
+.header .header-container .bars .bar {
+  width: 40px;
+  height: 3px;
+  color: rgba(255, 255, 255, 0.8980392157);
+  margin: 3px;
+}
 
 * {
   margin: 0;
