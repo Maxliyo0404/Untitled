@@ -255,6 +255,9 @@ body {
   .hero .hero-title h1 {
     font-size: 30px;
     line-height: 34px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+  }
+  .hero .hero-title .hero-btn {
+    padding: 12px 18px;
   }
 }/*# sourceMappingURL=main.css.map */
