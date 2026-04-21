@@ -372,8 +372,11 @@ body {
 }
 .sectionOne .sectionOne-container .One-btns .One-btn .btn-span:hover {
   background: #d4af37;
-  transform: rotate(270deg);
+  transform: rotate(199deg);
   cursor: pointer;
+}
+.sectionOne .sectionOne-container .One-btns .One-btn .btn-span .span-plus {
+  transform: rotate(220deg);
 }
 
 @media (max-width: 660px) {

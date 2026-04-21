@@ -104,9 +104,12 @@
                     background: linear-gradient(270deg, #B0AC9C -60.37%, #E9E9E9 150.12%);
                     &:hover {
                                background: #d4af37;
-                               transform: rotate(270deg);
+                               transform: rotate(180deg);
                                cursor: pointer;
                            }
+                     .span-plus{
+                        transform: rotate(220deg);
+                     }      
                 }
                 
 
