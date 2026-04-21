@@ -1,3 +1,15 @@
 .sectionOne{
-      background-color: #0b0b0b; 
+    background-color: #0b0b0b; 
+    .section-container{
+        padding: 81px 0;
+        .sectionOne-title{
+            h2{
+                font-weight: 600px;
+                font-size: 40px;
+                line-height: 100%;
+                color: #FFFFFF;
+                margin-bottom: 13px;
+            }
+        }
+    }
 }

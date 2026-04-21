@@ -269,4 +269,14 @@ body {
 }
 .sectionOne {
   background-color: #0b0b0b;
+}
+.sectionOne .section-container {
+  padding: 81px 0;
+}
+.sectionOne .section-container .sectionOne-title h2 {
+  font-weight: 600px;
+  font-size: 40px;
+  line-height: 100%;
+  color: #FFFFFF;
+  margin-bottom: 13px;
 }/*# sourceMappingURL=main.css.map */
