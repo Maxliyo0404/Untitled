@@ -27,17 +27,18 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 30px;
+        align-items: stretch;
         .three-item{
             max-width: 100%;
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            padding: 20px;
-            border-right: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 20px 10px;
+            border-left: 1px solid rgba(255, 255, 255, 0.2);
             text-align: center;
-           :last-of-type{
-                border-right: none  !important;
+                &:first-child{
+                border-left: none  !important;
             }
             .icons{
                 width: 80px;
@@ -52,6 +53,24 @@
                 color: #FFFFFF;
                 font-size: 18px;
 
+            }
+             p{
+                
+                font-weight: 500px;
+                font-size: 18px;
+                line-height: 30px;
+                color: #FFFFFFCC;
+                margin-bottom: 60px;
+        
+            }
+             a{
+                
+                font-weight: 400px;
+                font-size: 17px;
+                line-height: 100%;
+                text-decoration: underline;
+              
+        
             }
         }
       }

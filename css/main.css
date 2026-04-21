@@ -499,6 +499,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
+  align-items: stretch;
 }
 .sectionThree .Three-wrapper .three-list .three-item {
   max-width: 100%;
@@ -506,12 +507,12 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 20px;
-  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 20px 10px;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
   text-align: center;
 }
-.sectionThree .Three-wrapper .three-list .three-item :last-of-type {
-  border-right: none !important;
+.sectionThree .Three-wrapper .three-list .three-item:first-child {
+  border-left: none !important;
 }
 .sectionThree .Three-wrapper .three-list .three-item .icons {
   width: 80px;
@@ -525,4 +526,17 @@ body {
   background: rgba(109, 109, 109, 0.3019607843);
   color: #FFFFFF;
   font-size: 18px;
+}
+.sectionThree .Three-wrapper .three-list .three-item p {
+  font-weight: 500px;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 60px;
+}
+.sectionThree .Three-wrapper .three-list .three-item a {
+  font-weight: 400px;
+  font-size: 17px;
+  line-height: 100%;
+  text-decoration: underline;
 }/*# sourceMappingURL=main.css.map */
