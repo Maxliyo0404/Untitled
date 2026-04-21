@@ -289,4 +289,8 @@ body {
   font-size: 16px;
   line-height: 23px;
   color: rgba(255, 255, 255, 0.8);
+}
+.sectionOne .section-container .sectionOne-cards {
+  display: grid;
+  grid-template-columns: repeat(2);
 }/*# sourceMappingURL=main.css.map */
