@@ -27,7 +27,7 @@
            align-items: center;
            justify-content: space-between;
             gap: 30px;
-         
+             margin-bottom: 50px;
             .One-left{
                 max-width: 100%;
     
@@ -79,10 +79,18 @@
             margin: 0 auto;
             text-align: center;
             .One-btn{
-           display: flex; 
-           align-items: center;
-           gap: 10px;
-            }
+                display: flex; 
+                align-items: center;
+                gap: 10px;
+                .{
+                    width: 42.8px;
+                    height: 42.8px;
+                    transform: rotate(45deg);
+                    background: linear-gradient(270deg, #B0AC9C -60.37%, #E9E9E9 150.12%);
+
+                }
+
+             }
            
         }
     }
