@@ -39,11 +39,15 @@
                     .One-items{
                         display: flex;
                         align-items: center;
-                        gap: ;
-                        font-weight: 500px;
-                         font-size: 25px;
+                        gap:10px ;
+                        font-weight: 700px;
+                         font-size: 30px;
                          line-height: 100%;
-                         color: #FFFFFFAD;  
+                         color: #FFFFFF; 
+                       .one-span{
+                        width: 40px;
+                        border: 2px solid #F4C430;
+                       }   
                     }
                     .One-item{
                          font-weight: 500px;
