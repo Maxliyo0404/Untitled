@@ -1,6 +1,26 @@
 .sectionThree{
      background-color: #0b0b0b; 
     .Three-wrapper{
-
+      padding: 60px 0;
+      .three-title{
+        max-width: 587px;
+        margin: 0 auto;
+        text-align: center;
+         h2{
+                font-weight: 600px;
+                font-size: 40px;
+                line-height: 100%;
+                color: #FFFFFFCC;
+                margin-bottom: 13px;
+            }
+            p{
+               
+                font-weight: 500px;
+                font-size: 16px;
+                line-height: 23px;
+                color: #FFFFFFCC;
+        
+            }
+      }
     }
 }
