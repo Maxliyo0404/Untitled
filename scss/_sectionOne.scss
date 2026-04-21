@@ -75,9 +75,15 @@
             }
         }
         .One-btns{
+            width: 210px;
+            margin: 0 auto;
+            text-align: center;
+            .One-btn{
            display: flex; 
            align-items: center;
-           gap: ;
+           gap: 10px;
+            }
+           
         }
     }
 }

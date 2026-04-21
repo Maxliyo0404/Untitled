@@ -337,4 +337,12 @@ body {
   font-size: 25px;
   line-height: 100%;
   color: rgba(255, 255, 255, 0.6784313725);
+}
+.sectionOne .sectionOne-container .One-btns {
+  width: 210px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }/*# sourceMappingURL=main.css.map */
