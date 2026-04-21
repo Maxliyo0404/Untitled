@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 15px 0;
+  padding: 0;
 }
 .header .header-container .header-list {
   display: flex;
@@ -226,5 +226,35 @@ body {
   }
   60% {
     transform: translateX(-50%) translateY(-5px);
+  }
+}
+@media (max-width: 860px) {
+  .hero {
+    min-height: 700px;
+  }
+}
+@media (max-width: 660px) {
+  .hero {
+    min-height: 500px;
+  }
+  .hero .hero-title {
+    padding-top: 60px;
+  }
+  .hero .hero-title h1 {
+    font-size: 45px;
+    line-height: 40px;
+  }
+}
+@media (max-width: 660px) and (max-width: 520px) {
+  .hero {
+    min-height: 400px;
+  }
+  .hero .hero-title {
+    padding-top: 50px;
+  }
+  .hero .hero-title h1 {
+    font-size: 30px;
+    line-height: 34px;
+    margin-bottom: 20px;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -81,5 +81,32 @@ body{
         }
       
  @media(max-width:860px){
-
+  .hero{
+    min-height: 700px;
+  }
+ }
+ @media(max-width:660px){
+  .hero{
+    min-height: 500px;
+    .hero-title{
+        padding-top: 60px;
+        h1{
+            font-size: 45px ;
+            line-height: 40px;
+        }
+    }
+  }
+ @media(max-width:520px){
+  .hero{
+    min-height: 400px;
+    .hero-title{
+        padding-top: 50px;
+        h1{
+            font-size: 30px ;
+            line-height: 34px;
+            margin-bottom: 20px;
+        }
+    }
+  }
+ }
  }
