@@ -260,4 +260,10 @@ body {
   .hero .hero-title .hero-btn {
     padding: 12px 18px;
   }
+  .hero .hero-arrow {
+    bottom: 55px;
+  }
+  .hero .hero-arrow .arrow {
+    font-size: 22px;
+  }
 }/*# sourceMappingURL=main.css.map */
