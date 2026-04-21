@@ -13,7 +13,13 @@
             .two-item{
                 display: flex;
                 align-items: center;
-                gap: ;
+                gap:15px ;
+                .two-span{
+                    font-weight: 500px;
+                    font-size: 25px;
+                    line-height: 100%;
+                    color: #FFFFFFCC; 
+                }
             }
         }
     }
