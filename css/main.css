@@ -84,6 +84,17 @@
   transform: scale(0.9);
 }
 
+@media (max-width: 960px) {
+  .header .header-list {
+    gap: 20px;
+  }
+  .header .selects {
+    gap: 20px;
+  }
+  .header .selects .header-btn {
+    padding: 8px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
