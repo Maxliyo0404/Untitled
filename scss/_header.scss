@@ -119,9 +119,7 @@
              .header-btn{
                 padding:12px  8px;
            }
-           .bars{
-            display: block;
-           }
+
     }
         }
     }
@@ -145,9 +143,6 @@
                 font-size: 12px;
                 line-height: 15px;
            }
-           .bars{
-            display: block;
-           }
     }
         }
     }
@@ -156,11 +151,17 @@
 
 
 
- @media(max-width:1130px){
-
- }
- @media(max-width:1130px){
-
+ 
+ @media(max-width:480px){
+   .header{
+    .header-container{
+        .selects{
+            .bars{
+            display: block;
+           }
+        }
+    }
+   }
  }
  @media(max-width:1130px){
 
