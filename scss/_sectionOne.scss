@@ -2,6 +2,8 @@
     background-color: #0b0b0b; 
     .sectionOne-container{
         padding: 81px 0;
+        position: relative;
+        z-index: 1;
         .sectionOne-title{
             margin-bottom: 50px;
             h2{
@@ -25,10 +27,22 @@
            align-items: center;
            justify-content: space-between;
             gap: 30px;
+         
             .One-left{
                 max-width: 100%;
-                img{
+    
+                .left-rasm{
                     width: 80%;
+        
+                }
+                .left-span{
+                   .span-rasm{
+                     position: absolute;
+                      left: -0%;
+                      top: 65%;
+                      bottom: 10%;
+                      z-index: 2;
+                   }  
                 }
             }
             .One-right{

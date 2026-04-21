@@ -272,6 +272,8 @@ body {
 }
 .sectionOne .sectionOne-container {
   padding: 81px 0;
+  position: relative;
+  z-index: 1;
 }
 .sectionOne .sectionOne-container .sectionOne-title {
   margin-bottom: 50px;
@@ -299,8 +301,15 @@ body {
 .sectionOne .sectionOne-container .sectionOne-cards .One-left {
   max-width: 100%;
 }
-.sectionOne .sectionOne-container .sectionOne-cards .One-left img {
+.sectionOne .sectionOne-container .sectionOne-cards .One-left .left-rasm {
   width: 80%;
+}
+.sectionOne .sectionOne-container .sectionOne-cards .One-left .left-span .span-rasm {
+  position: absolute;
+  left: 0%;
+  top: 65%;
+  bottom: 10%;
+  z-index: 2;
 }
 .sectionOne .sectionOne-container .sectionOne-cards .One-right {
   max-width: 100%;
