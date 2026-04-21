@@ -94,9 +94,14 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    color: #000000;
                     font-size: 28px;
                     transform: rotate(45deg);
                     background: linear-gradient(270deg, #B0AC9C -60.37%, #E9E9E9 150.12%);
+                    &:hover{
+                        transform: rotate(180deg);
+                        cursor: pointer;
+                    }
 
                 }
 
