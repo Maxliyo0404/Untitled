@@ -93,17 +93,67 @@
 
  @media(max-width:960px){
     .header{
-        .header-list{
+        .header-container{
+            .header-list{
             gap: 10px;
         }
         .selects{
             gap: 10px;
              .header-btn{
-                padding: 8px;
+                padding:12px  8px;
         }
     }
+        }
     }
  }
+ @media(max-width:760px){
+    .header{
+        .header-container{
+            .header-list{
+            display: none;
+        }
+        .selects{
+            gap: 10px;
+             .header-btn{
+                padding:12px  8px;
+           }
+           .bars{
+            display: block;
+           }
+    }
+        }
+    }
+ }
+ @media(max-width:508px){
+    .header{
+        .header-container{
+            .header-list{
+            display: none;
+        }
+        .selects{
+            gap: 10px;
+            .select{
+                display: none;
+            }
+            .search{
+                display: none;
+            }
+             .header-btn{
+                padding:12px 4px;
+                font-size: 12px;
+                line-height: 15px;
+           }
+           .bars{
+            display: block;
+           }
+    }
+        }
+    }
+ }
+
+
+
+
  @media(max-width:1130px){
 
  }
