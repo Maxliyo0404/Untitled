@@ -372,7 +372,7 @@ body {
 }
 .sectionOne .sectionOne-container .One-btns .One-btn .btn-span:hover {
   background: #d4af37;
-  transform: rotate(199deg);
+  transform: rotate(180deg);
   cursor: pointer;
 }
 .sectionOne .sectionOne-container .One-btns .One-btn .btn-span .span-plus {
@@ -468,4 +468,30 @@ body {
     width: 32px;
     height: 32px;
   }
+}
+.sectionThree {
+  background-color: #0b0b0b;
+}
+.sectionThree .Three-wrapper {
+  padding: 60px 0;
+}
+.sectionThree .Three-wrapper .three-title {
+  max-width: 587px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.sectionThree .Three-wrapper .three-title h2 {
+  font-weight: 600px;
+  font-size: 50px;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 0.8705882353);
+  margin-bottom: 20px;
+}
+.sectionThree .Three-wrapper .three-title p {
+  max-width: 587px;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 27px;
+  color: rgba(255, 255, 255, 0.8);
 }/*# sourceMappingURL=main.css.map */
