@@ -297,6 +297,7 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 30px;
+  margin-bottom: 50px;
 }
 .sectionOne .sectionOne-container .sectionOne-cards .One-left {
   max-width: 100%;
@@ -342,7 +343,20 @@ body {
   width: 210px;
   margin: 0 auto;
   text-align: center;
+}
+.sectionOne .sectionOne-container .One-btns .One-btn {
   display: flex;
   align-items: center;
   gap: 10px;
+  background: none;
+  border: none;
+}
+.sectionOne .sectionOne-container .One-btns .One-btn .btn-span {
+  width: 42.8px;
+  height: 42.8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(45deg);
+  background: linear-gradient(270deg, #B0AC9C -60.37%, #E9E9E9 150.12%);
 }/*# sourceMappingURL=main.css.map */
