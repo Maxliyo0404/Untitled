@@ -507,8 +507,11 @@ body {
   justify-content: center;
   flex-direction: column;
   padding: 20px;
-  border: 1px solid gray;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
   text-align: center;
+}
+.sectionThree .Three-wrapper .three-list .three-item .three-item:last-child {
+  border-right: none;
 }
 .sectionThree .Three-wrapper .three-list .three-item .icons {
   width: 80px;
@@ -521,4 +524,5 @@ body {
   margin-bottom: 30px;
   background: rgba(109, 109, 109, 0.3019607843);
   color: #FFFFFF;
+  font-size: 18px;
 }/*# sourceMappingURL=main.css.map */
