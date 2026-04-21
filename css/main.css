@@ -510,8 +510,8 @@ body {
   border-right: 1px solid rgba(255, 255, 255, 0.2);
   text-align: center;
 }
-.sectionThree .Three-wrapper .three-list .three-item .three-item:last-child {
-  border-right: none;
+.sectionThree .Three-wrapper .three-list .three-item :last-of-type {
+  border-right: none !important;
 }
 .sectionThree .Three-wrapper .three-list .three-item .icons {
   width: 80px;

@@ -36,8 +36,8 @@
             padding: 20px;
             border-right: 1px solid rgba(255, 255, 255, 0.2);
             text-align: center;
-           .three-item:last-child{
-                border-right: none;
+           :last-of-type{
+                border-right: none  !important;
             }
             .icons{
                 width: 80px;
