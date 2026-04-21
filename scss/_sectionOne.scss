@@ -3,12 +3,21 @@
     .section-container{
         padding: 81px 0;
         .sectionOne-title{
+            margin-bottom: 30px;
             h2{
                 font-weight: 600px;
                 font-size: 40px;
                 line-height: 100%;
-                color: #FFFFFF;
+                color: #FFFFFFCC;
                 margin-bottom: 13px;
+            }
+            p{
+                max-width:450px;
+                font-weight: 500px;
+                font-size: 16px;
+                line-height: 23px;
+                color: #FFFFFFCC;
+        
             }
         }
     }
