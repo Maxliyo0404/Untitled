@@ -1,0 +1,20 @@
+.sectionTwo{
+    .sectionTwo-wrapper{
+        padding: 60px 0;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: stretch;
+        gap: 20px;
+        .two-list{
+            max-width: 100%;
+            display: flex;
+            align-items: start;
+            flex-direction: column;
+            .two-item{
+                display: flex;
+                align-items: center;
+                gap: ;
+            }
+        }
+    }
+}
