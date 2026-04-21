@@ -274,7 +274,7 @@ body {
   padding: 81px 0;
 }
 .sectionOne .sectionOne-container .sectionOne-title {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .sectionOne .sectionOne-container .sectionOne-title h2 {
   font-weight: 600px;
@@ -292,7 +292,7 @@ body {
 }
 .sectionOne .sectionOne-container .sectionOne-cards {
   display: flex;
-  align-items: stretch;
+  align-items: center;
   justify-content: space-between;
   gap: 30px;
 }

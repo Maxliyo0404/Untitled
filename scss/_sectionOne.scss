@@ -3,7 +3,7 @@
     .sectionOne-container{
         padding: 81px 0;
         .sectionOne-title{
-            margin-bottom: 30px;
+            margin-bottom: 50px;
             h2{
                 font-weight: 600px;
                 font-size: 40px;
@@ -22,7 +22,7 @@
         }
         .sectionOne-cards{
            display: flex;
-           align-items: stretch;
+           align-items: center;
            justify-content: space-between;
             gap: 30px;
             .One-left{
