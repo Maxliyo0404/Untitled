@@ -59,8 +59,9 @@
                     
         }
         .five-right{
-              transform: translate(-40px, 50px);
+              transform: translate(-70px, 30px);
                max-width: 400px;
+               min-height: 400px;
                 background: linear-gradient(251.96deg, #000000 -20.95%, #2F2F2F 110.78%);
                 padding: 20px;
                 border: 1px solid gray;
@@ -72,8 +73,8 @@
                 background: linear-gradient(270deg, #B0AC9C -60.37%, #E9E9E9 150.12%);
                 box-shadow: 0px 4px 20px 0px #0000004D;
                 position: relative;
-                 left: -20%;
-                 top: -20%;
+                 left: -16%;
+                 top: -10%;
 
             }
             .five-list{
