@@ -817,7 +817,7 @@ body {
   color: #000;
 }
 .sectioFive .sectionFive-wrapper .five-right {
-  transform: translate(-70px, 30px);
+  transform: translate(-50px, 30px);
   max-width: 400px;
   min-height: 400px;
   background: linear-gradient(251.96deg, #000000 -20.95%, #2F2F2F 110.78%);
