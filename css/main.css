@@ -835,12 +835,22 @@ body {
   background: linear-gradient(270deg, #B0AC9C -60.37%, #E9E9E9 150.12%);
   box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.3019607843);
   position: relative;
+  left: -20%;
+  top: -20%;
+}
+.sectioFive .sectionFive-wrapper .five-right .five-list {
+  margin-top: -30px;
 }
 .sectioFive .sectionFive-wrapper .five-right .five-list .five-item {
   display: flex;
   align-items: center;
   gap: 30px;
   color: #FFFFFF;
+}
+.sectioFive .sectionFive-wrapper .five-right .five-list .five-item .right-text {
+  display: flex;
+  align-items: start;
+  gap: 15px;
 }
 .sectioFive .sectionFive-wrapper .five-right .five-icons {
   display: flex;
