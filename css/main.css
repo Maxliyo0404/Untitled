@@ -149,7 +149,6 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-  border: 4px solid red;
 }
 
 .hero {
@@ -763,4 +762,27 @@ body {
   .sectionFour .sectionFour-wrapper .four-list {
     grid-template-columns: 1fr;
   }
+}
+.sectioFive .sectionFive-wrapper {
+  padding: 40px 0;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 20px;
+}
+.sectioFive .sectionFive-wrapper .five-left h2 {
+  max-width: 492px;
+  font-weight: 600px;
+  font-size: 40px;
+  line-height: 100%;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.sectioFive .sectionFive-wrapper .five-left p {
+  max-width: 492px;
+  font-weight: 500px;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 58px;
 }/*# sourceMappingURL=main.css.map */

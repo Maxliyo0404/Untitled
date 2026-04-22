@@ -1,0 +1,129 @@
+.sectioFive{
+    .sectionFive-wrapper{
+        padding: 40px 0;
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+        gap: 20px;
+        .five-left{
+            h2{
+                max-width: 492px;
+                font-weight: 600px;
+                font-size: 40px;
+                line-height: 100%;
+                color: #FFFFFF;
+                margin-bottom: 20px;
+            }
+            p{
+                max-width:492px;
+                font-weight: 500px;
+                font-size: 18px;
+                line-height: 27px;
+                color: #FFFFFFCC;
+                margin-bottom: 58px;
+        
+            } 
+            .form{
+                display: flex;
+                align-items: start;
+                flex-direction: column;
+                .input-group{
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 32px;
+                    .label {
+                          display: block;
+                          margin-bottom: 8px;
+                          font-weight: 500;
+                          font-size: 14px;
+                          text-transform: uppercase;
+                          letter-spacing: 1px;
+                          color: $gold;
+                          
+                      }
+                       input, textarea {
+                width: 100%;
+                background: transparent;
+                border: none;
+                border-bottom: 2px solid #555;
+                padding: 10px 0;
+                font-size: 17px;
+                color: $text;
+                transition: border-color 0.3s;
+
+                &:focus {
+                    outline: none;
+                    border-color: $gold;
+                }
+            }
+
+                }
+            }
+            
+           
+
+           
+        }
+
+        .phone-wrapper {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #555;
+            padding-bottom: 8px;
+            
+            span { 
+                margin-right: 10px; 
+                font-weight: 600; 
+                color: $muted;
+            }
+
+            input {
+                border-bottom: none;
+                padding: 0;
+            }
+        }
+
+        textarea { 
+            min-height: 130px; 
+            resize: vertical; 
+        }
+
+        .submit-btn {
+            margin-top: 15px;
+            padding: 16px 65px;
+            font-size: 18px;
+            font-weight: 600;
+            color: $gold;
+            background: transparent;
+            border: 2.5px solid $gold;
+            border-radius: 50px;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.4s ease;
+            width: fit-content;
+
+            &::before {
+                content: '';
+                position: absolute;
+                top: -50%;
+                left: -75%;
+                width: 40%;
+                height: 300%;
+                background: linear-gradient(120deg, transparent, rgba(255,255,255,0.4), transparent);
+                animation: shine 3s infinite;
+            }
+
+            &:hover {
+                background: $gold;
+                color: #121212;
+                transform: scale(1.05) translateY(-2px);
+            }
+
+            &:active {
+                transform: scale(0.98);
+            }
+        }
+        }
+    }
+}
