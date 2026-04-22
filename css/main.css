@@ -857,13 +857,13 @@ body {
   flex-direction: column;
   gap: 15px;
 }
-.sectioFive .sectionFive-wrapper .five-right .five-list .five-item .right-text h2 {
+.sectioFive .sectionFive-wrapper .five-right .five-list .five-item .right-text h3 {
   max-width: 492px;
   font-weight: 600px;
   font-size: 40px;
   line-height: 100%;
   color: #FFFFFF;
-  margin-bottom: 20px;
+  margin-bottom: px;
 }
 .sectioFive .sectionFive-wrapper .five-right .five-list .five-item .right-text p {
   max-width: 492px;
