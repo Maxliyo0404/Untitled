@@ -785,4 +785,20 @@ body {
   line-height: 27px;
   color: rgba(255, 255, 255, 0.8);
   margin-bottom: 58px;
+}
+.sectioFive .sectionFive-wrapper .five-left .form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sectioFive .sectionFive-wrapper .five-left .form input, .sectioFive .sectionFive-wrapper .five-left .form textarea {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #555;
+  padding: 10px 0;
+  color: #fff;
+  outline: none;
+}
+.sectioFive .sectionFive-wrapper .five-left .form input:focus, .sectioFive .sectionFive-wrapper .five-left .form textarea:focus {
+  border-bottom-color: #f1c40f;
 }/*# sourceMappingURL=main.css.map */

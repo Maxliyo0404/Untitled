@@ -25,105 +25,36 @@
             } 
             .form{
                 display: flex;
-                align-items: start;
-                flex-direction: column;
-                .input-group{
-                    display: flex;
-                    flex-direction: column;
-                    margin-bottom: 32px;
-                    .label {
-                          display: block;
-                          margin-bottom: 8px;
-                          font-weight: 500;
-                          font-size: 14px;
-                          text-transform: uppercase;
-                          letter-spacing: 1px;
-                          color: $gold;
-                          
+               flex-direction: column;
+               gap: 20px;
+               input, textarea {
+                       background: transparent;
+                       border: none;
+                       border-bottom: 1px solid #555; // Figma'dagi kabi pastki chiziq
+                       padding: 10px 0;
+                       color: #fff;
+                       outline: none;
+               
+                       &:focus {
+                         border-bottom-color: #f1c40f; // Fokus bo'lgandagi rang
+                       }
+                }  
+                 .btn-submit {
+                      width: fit-content;
+                      padding: 12px 40px;
+                      border: 1px solid #f1c40f;
+                      background: transparent;
+                      color: #fff;
+                      cursor: pointer;
+                      transition: 0.3s;
+               
+                      &:hover {
+                        background: #f1c40f;
+                        color: #000;
                       }
-                       input, textarea {
-                width: 100%;
-                background: transparent;
-                border: none;
-                border-bottom: 2px solid #555;
-                padding: 10px 0;
-                font-size: 17px;
-                color: $text;
-                transition: border-color 0.3s;
-
-                &:focus {
-                    outline: none;
-                    border-color: $gold;
-                }
-            }
-
-                }
-            }
-            
-           
-
-           
-        }
-
-        .phone-wrapper {
-            display: flex;
-            align-items: center;
-            border-bottom: 2px solid #555;
-            padding-bottom: 8px;
-            
-            span { 
-                margin-right: 10px; 
-                font-weight: 600; 
-                color: $muted;
-            }
-
-            input {
-                border-bottom: none;
-                padding: 0;
-            }
-        }
-
-        textarea { 
-            min-height: 130px; 
-            resize: vertical; 
-        }
-
-        .submit-btn {
-            margin-top: 15px;
-            padding: 16px 65px;
-            font-size: 18px;
-            font-weight: 600;
-            color: $gold;
-            background: transparent;
-            border: 2.5px solid $gold;
-            border-radius: 50px;
-            cursor: pointer;
-            position: relative;
-            overflow: hidden;
-            transition: all 0.4s ease;
-            width: fit-content;
-
-            &::before {
-                content: '';
-                position: absolute;
-                top: -50%;
-                left: -75%;
-                width: 40%;
-                height: 300%;
-                background: linear-gradient(120deg, transparent, rgba(255,255,255,0.4), transparent);
-                animation: shine 3s infinite;
-            }
-
-            &:hover {
-                background: $gold;
-                color: #121212;
-                transform: scale(1.05) translateY(-2px);
-            }
-
-            &:active {
-                transform: scale(0.98);
-            }
-        }
-        }
+      }
     }
-}
+                    
+        }
+        }
+        }
