@@ -768,8 +768,6 @@ body {
   display: flex;
   align-items: stretch;
   justify-content: space-between;
-  gap: 20px;
-  position: absolute;
 }
 .sectioFive .sectionFive-wrapper .five-left h2 {
   max-width: 492px;
@@ -819,12 +817,12 @@ body {
   color: #000;
 }
 .sectioFive .sectionFive-wrapper .five-right {
-  transform: translate(0, 100px);
-}
-.sectioFive .sectionFive-wrapper .five-right .five-list {
+  transform: translate(-40px, 50px);
   max-width: 379px;
+  height: 400px;
   background: linear-gradient(251.96deg, #000000 -20.95%, #2F2F2F 110.78%);
-  padding: 50px;
+  padding: 30px;
+  border: 1px solid gray;
   display: flex;
   align-items: start;
   flex-direction: column;
@@ -836,10 +834,13 @@ body {
   gap: 30px;
   color: #FFFFFF;
 }
-.sectioFive .sectionFive-wrapper .five-right .five-list .five-icons {
-  color: #fff;
-  font-size: 20px;
+.sectioFive .sectionFive-wrapper .five-right .five-icons {
+  transform: translate(0, 100px);
   display: flex;
   align-items: center;
   gap: 10px;
+}
+.sectioFive .sectionFive-wrapper .five-right .five-icons i {
+  color: #fff;
+  font-size: 20px;
 }/*# sourceMappingURL=main.css.map */

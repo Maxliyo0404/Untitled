@@ -3,9 +3,8 @@
         padding: 40px 0;
         display: flex;
         align-items: stretch;
-        justify-content: space-between;
-        gap: 20px;
-        position: absolute;
+       justify-content: space-between;
+
         .five-left{
             h2{
                 max-width: 492px;
@@ -60,17 +59,19 @@
                     
         }
         .five-right{
-            transform: translate(0, 100px);
-            .five-list{
-                max-width: 379px;
+              transform: translate(-40px, 50px);
+               max-width: 379px;
+               height: 400px;
                 background: linear-gradient(251.96deg, #000000 -20.95%, #2F2F2F 110.78%);
-                padding: 50px;
+                padding: 30px;
+                border: 1px solid gray;
                 display: flex;
                 align-items: start;
                 flex-direction: column;
                 gap: 30px;
-               
 
+            .five-list{
+        
                 .five-item{
                     display: flex;
                     align-items: center;
@@ -78,14 +79,18 @@
                     color: #FFFFFF;
                  
                 }
-                .five-icons{
-                    color: #fff;
-                    font-size: 20px;
+    
+            }
+            .five-icons{
+                    transform: translate(0, 100px);
                     display: flex;
                     align-items: center;
                     gap: 10px;
+                    i{
+                      color: #fff;
+                    font-size: 20px;
+                    }
                 }
-            }
         }
   }
  }
