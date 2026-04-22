@@ -61,7 +61,6 @@
         .five-right{
               transform: translate(-40px, 50px);
                max-width: 400px;
-               height: 400px;
                 background: linear-gradient(251.96deg, #000000 -20.95%, #2F2F2F 110.78%);
                 padding: 20px;
                 border: 1px solid gray;
@@ -96,24 +95,25 @@
                         display: flex;
                         align-items: start;
                         flex-direction: column;
-                        gap: 15px;
+                        margin-bottom: 30px;
+
+                       
                          h3{
-                            max-width: 492px;
                             font-weight: 600px;
-                            font-size: 40px;
-                            line-height: 100%;
+                            font-size: 18px;
+                            line-height: 27px;
                             color: #FFFFFF;
-                            margin-bottom: px;
+                            margin-bottom: 5px;
                         }
-            p{
-                max-width:492px;
-                font-weight: 500px;
-                font-size: 18px;
-                line-height: 27px;
-                color: #FFFFFFCC;
-                margin-bottom: 58px;
+                        p{
+    
+                            font-weight: 500px;
+                            font-size: 18px;
+                            line-height: 27px;
+                            color: #FFFFFFCC;
         
-            } 
+                    
+                        } 
                     }
                     
                 }
