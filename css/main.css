@@ -665,4 +665,27 @@ body {
     align-items: center;
     margin: 0 auto;
   }
+}
+.sectionFour .sectionFour-wrapper {
+  padding: 60px 0;
+}
+.sectionFour .sectionFour-wrapper .four-title {
+  max-width: 587px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.sectionFour .sectionFour-wrapper .four-title h2 {
+  font-weight: 600px;
+  font-size: 50px;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 0.8705882353);
+  margin-bottom: 20px;
+}
+.sectionFour .sectionFour-wrapper .four-title p {
+  max-width: 587px;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 27px;
+  color: rgba(255, 255, 255, 0.8);
 }/*# sourceMappingURL=main.css.map */
