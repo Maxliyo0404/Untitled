@@ -838,7 +838,7 @@ body {
 .sectioFive .sectionFive-wrapper .five-right .five-list {
   margin-top: -30px;
   display: flex;
-  align-items: center;
+  align-items: start;
   flex-direction: column;
 }
 .sectioFive .sectionFive-wrapper .five-right .five-list .five-item {
@@ -846,6 +846,10 @@ body {
   display: flex;
   align-items: start;
   gap: 30px;
+}
+.sectioFive .sectionFive-wrapper .five-right .five-list .five-item i {
+  color: #E9E9E9;
+  font-size: 26px;
 }
 .sectioFive .sectionFive-wrapper .five-right .five-list .five-item .right-text {
   display: flex;
