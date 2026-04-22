@@ -60,10 +60,10 @@
         }
         .five-right{
               transform: translate(-40px, 50px);
-               max-width: 379px;
+               max-width: 400px;
                height: 400px;
                 background: linear-gradient(251.96deg, #000000 -20.95%, #2F2F2F 110.78%);
-                padding: 30px;
+                padding: 20px;
                 border: 1px solid gray;
                 display: flex;
                 align-items: start;
@@ -82,9 +82,11 @@
             }
             .five-list{
                  margin-top: -30px;
+                  display: flex;
+                    align-items: start;
+                    flex-direction: column;
                 .five-item{
-                    display: flex;
-                    align-items: center;
+
                     gap: 30px;
                     color: #FFFFFF;
                     .right-text{
