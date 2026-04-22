@@ -69,11 +69,14 @@
                 align-items: start;
                 flex-direction: column;
                 gap: 30px;
+                position: relative;
             .card{
                 width: 47px;
                 height: 47px;
                 background: linear-gradient(270deg, #B0AC9C -60.37%, #E9E9E9 150.12%);
                 box-shadow: 0px 4px 20px 0px #0000004D;
+                position: relative;
+
 
             }
             .five-list{
@@ -88,7 +91,7 @@
     
             }
             .five-icons{
-                    transform: translate(0, 100px);
+                   
                     display: flex;
                     align-items: center;
                     gap: 30px;
