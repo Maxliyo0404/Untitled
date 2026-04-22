@@ -97,9 +97,23 @@
                         align-items: start;
                         flex-direction: column;
                         gap: 15px;
-                        h3{
-                            
-                        }
+                         h2{
+                max-width: 492px;
+                font-weight: 600px;
+                font-size: 40px;
+                line-height: 100%;
+                color: #FFFFFF;
+                margin-bottom: 20px;
+            }
+            p{
+                max-width:492px;
+                font-weight: 500px;
+                font-size: 18px;
+                line-height: 27px;
+                color: #FFFFFFCC;
+                margin-bottom: 58px;
+        
+            } 
                     }
                     
                 }

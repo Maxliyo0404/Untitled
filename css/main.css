@@ -857,6 +857,22 @@ body {
   flex-direction: column;
   gap: 15px;
 }
+.sectioFive .sectionFive-wrapper .five-right .five-list .five-item .right-text h2 {
+  max-width: 492px;
+  font-weight: 600px;
+  font-size: 40px;
+  line-height: 100%;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.sectioFive .sectionFive-wrapper .five-right .five-list .five-item .right-text p {
+  max-width: 492px;
+  font-weight: 500px;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 58px;
+}
 .sectioFive .sectionFive-wrapper .five-right .five-icons {
   position: absolute;
   bottom: 5px;
