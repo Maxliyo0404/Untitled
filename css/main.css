@@ -731,4 +731,36 @@ body {
 }
 .sectionFour .sectionFour-wrapper .four-list .four-item:hover {
   transform: scale(0.9);
+}
+
+@media (max-width: 760px) {
+  .sectionFour .sectionFour-wrapper .four-title {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  .sectionFour .sectionFour-wrapper .four-title h2 {
+    font-size: 30px;
+  }
+  .sectionFour .sectionFour-wrapper {
+    padding: 40px 0;
+  }
+  .sectionFour .sectionFour-wrapper .four-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 460px) {
+  .sectionFour .sectionFour-wrapper .four-title {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  .sectionFour .sectionFour-wrapper .four-title h2 {
+    font-size: 30px;
+    line-height: 32px;
+  }
+  .sectionFour .sectionFour-wrapper {
+    padding: 40px 0;
+  }
+  .sectionFour .sectionFour-wrapper .four-list {
+    grid-template-columns: 1fr;
+  }
 }/*# sourceMappingURL=main.css.map */
