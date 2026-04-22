@@ -701,4 +701,7 @@ body {
 }
 .sectionFour .sectionFour-wrapper .four-list .four-item img {
   max-width: 100%;
+}
+.sectionFour .sectionFour-wrapper .four-list .four-item .four-texts {
+  padding: 20px;
 }/*# sourceMappingURL=main.css.map */
