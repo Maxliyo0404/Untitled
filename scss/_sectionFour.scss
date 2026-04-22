@@ -58,13 +58,15 @@
                     }
                       p{
                           font-weight: 500px;
-                          font-size: 16px;
+                          font-size: 13px;
                           line-height: 23px;
                           color:#FFFFFFCC;
         
                        } 
                 }
-
+               &:hover{
+                transform: scale(0.9);
+               }
 
             }
         }

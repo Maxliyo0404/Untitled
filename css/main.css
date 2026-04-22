@@ -725,7 +725,10 @@ body {
 }
 .sectionFour .sectionFour-wrapper .four-list .four-item .four-texts p {
   font-weight: 500px;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 23px;
   color: rgba(255, 255, 255, 0.8);
+}
+.sectionFour .sectionFour-wrapper .four-list .four-item:hover {
+  transform: scale(0.9);
 }/*# sourceMappingURL=main.css.map */
