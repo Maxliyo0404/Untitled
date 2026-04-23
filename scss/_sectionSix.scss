@@ -25,7 +25,7 @@
 
 
 @media (max-width: 1024px) {
-    section .container .map {
+    .sectionSix .container .sectionSix-map {
         iframe {
             height: 400px;
         }
@@ -33,7 +33,7 @@
 }
 
 @media (max-width: 768px) {
-    section .container .map {
+    .sectionSix .container .sectionSix-map  {
         margin-top: 20px;
         border-radius: 0; 
         
@@ -44,7 +44,7 @@
 }
 
 @media (max-width: 480px) {
-    section .container .map {
+    .sectionSix .container .sectionSix-map  {
         iframe {
             height: 300px; 
         }
