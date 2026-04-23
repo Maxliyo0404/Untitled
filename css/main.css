@@ -886,7 +886,7 @@ body {
   font-size: 20px;
 }
 
-.section .container .map {
+.sectionSix .container .map {
   width: 100%;
   line-height: 0;
   overflow: hidden;
@@ -894,14 +894,14 @@ body {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   margin-top: 40px;
 }
-.section .container .map iframe {
+.sectionSix .container .map iframe {
   width: 100%;
   height: 500px;
   border: 0;
   filter: grayscale(100%) invert(92%) contrast(83%);
   transition: filter 0.3s ease;
 }
-.section .container .map iframe:hover {
+.sectionSix .container .map iframe:hover {
   filter: grayscale(0%) invert(0%) contrast(100%);
 }
 
