@@ -872,7 +872,7 @@ body {
   color: rgba(255, 255, 255, 0.8);
 }
 .sectioFive .sectionFive-wrapper .five-right .five-icons {
-  max-width: 180px;
+  width: 180px;
   display: flex;
   align-items: center;
   gap: 30px;
