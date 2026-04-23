@@ -123,6 +123,8 @@
             }
             .five-icons{
                     width: 180px;
+                     margin: 0 auto;
+                     text-align: center;
                     display: flex;
                     align-items: center;
                     gap: 30px;
@@ -132,7 +134,6 @@
                     i{
                       color: #fff;
                     font-size: 20px;
-                    margin: 0 auto;
                     }
                 }
         }

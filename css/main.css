@@ -873,6 +873,8 @@ body {
 }
 .sectioFive .sectionFive-wrapper .five-right .five-icons {
   width: 180px;
+  margin: 0 auto;
+  text-align: center;
   display: flex;
   align-items: center;
   gap: 30px;
@@ -882,5 +884,4 @@ body {
 .sectioFive .sectionFive-wrapper .five-right .five-icons i {
   color: #fff;
   font-size: 20px;
-  margin: 0 auto;
 }/*# sourceMappingURL=main.css.map */
