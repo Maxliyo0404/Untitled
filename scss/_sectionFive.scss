@@ -1,5 +1,6 @@
 .sectioFive{
     .sectionFive-wrapper{
+        margin-bottom: 200px;
         padding: 40px 0;
         display: flex;
         align-items: stretch;
@@ -59,7 +60,7 @@
                     
         }
         .five-right{
-              transform: translate(-50px, 30px);
+              transform: translate(0, 30px);
                max-width: 400px;
                min-height: 400px;
                 background: linear-gradient(251.96deg, #000000 -20.95%, #2F2F2F 110.78%);
@@ -121,8 +122,7 @@
     
             }
             .five-icons{
-                   position: absolute;
-                   bottom: 5px;
+            
                     display: flex;
                     align-items: center;
                     gap: 30px;
