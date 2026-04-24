@@ -24,7 +24,7 @@ footer {
                 padding: 0;
                 margin: 0;
                 gap: 50px;
-                flex-wrap: wrap; /
+                flex-wrap: wrap; 
 
                 a {
                     font-family: 'Gilroy', sans-serif;
@@ -60,11 +60,11 @@ footer {
         gap: 30px;
 
         img {
-            width: 150px; // Logo biroz kichraytirildi
+            width: 150px; 
         }
 
         ul {
-            flex-direction: column; // Mobil qurilmada menu ustma-ust tushadi
+           flex-wrap: wrap;
             gap: 20px;
             text-align: center;
         }
@@ -76,7 +76,7 @@ footer {
         padding: 40px 0;
         
         .f-footer ul a {
-            font-size: 16px; // Kichik telefonlar uchun matn hajmi
+            font-size: 16px;
         }
     }
 }
